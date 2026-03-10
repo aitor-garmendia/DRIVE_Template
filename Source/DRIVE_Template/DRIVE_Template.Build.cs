@@ -8,7 +8,7 @@ public class DRIVE_Template : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "DRIVE_Core", "DRIVE_UE" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
