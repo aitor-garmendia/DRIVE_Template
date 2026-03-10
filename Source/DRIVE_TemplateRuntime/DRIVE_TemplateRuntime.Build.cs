@@ -2,26 +2,29 @@
 
 using UnrealBuildTool;
 
-public class DRIVE_Template : ModuleRules
+public class DRIVE_TemplateRuntime : ModuleRules
 {
-	public DRIVE_Template(ReadOnlyTargetRules Target) : base(Target)
+	public DRIVE_TemplateRuntime(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "DRIVE_Core", "DRIVE_UE" });
-
-		PrivateDependencyModuleNames.AddRange(new string[]
+		PublicDependencyModuleNames.AddRange(new string[]
 		{
+			"Core",
+			"CoreUObject",
 			"Engine",
-			"Slate",
-			"SlateCore",
-			"GraphEditor",
-			"PropertyEditor",
-			"EditorStyle",
+			"InputCore",
+			"AnimationCore",
 			"AnimGraphRuntime",
 			"AnimGraph",
-			"BlueprintGraph"
+			"BlueprintGraph",
+			"EnhancedInput",
+			"DRIVE_Core",
+			"DRIVE_UE",
+			"DRIVE_Template"
 		});
+
+		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
