@@ -10,6 +10,6 @@ public class DRIVE_TemplateEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V6;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
-		ExtraModuleNames.Add("DRIVE_Template");
+		ExtraModuleNames.AddRange( new string[] { "DRIVE_Template", "DRIVE_TemplateRuntime" } );
 	}
 }
