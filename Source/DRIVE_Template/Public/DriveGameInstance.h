@@ -6,7 +6,7 @@
 #include "DriveGameInstance.generated.h"
 
 UCLASS()
-class DRIVE_API UDriveGameInstance : public UGameInstance
+class DRIVE_TEMPLATE_API UDriveGameInstance : public UGameInstance
 {
     GENERATED_BODY()
 
