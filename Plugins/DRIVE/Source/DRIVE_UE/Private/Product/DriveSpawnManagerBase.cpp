@@ -17,7 +17,7 @@ void ADriveSpawnManagerBase::BeginPlay()
 
 void ADriveSpawnManagerBase::RefreshSpawnPoints()
 {
-    SpawnPoints.Reset();
+    SpawnPointArray.Reset();
 
     if (!GetWorld())
     {
@@ -33,7 +33,7 @@ void ADriveSpawnManagerBase::RefreshSpawnPoints()
 
             if (AutoRegisterTag != NAME_None && A->ActorHasTag(AutoRegisterTag))
             {
-                SpawnPoints.Add(A);
+                SpawnPointArray.Add(A);
             }
         }
     }
@@ -42,9 +42,9 @@ void ADriveSpawnManagerBase::RefreshSpawnPoints()
 bool ADriveSpawnManagerBase::TryPickSpawnTransform(FName SpawnTag, FTransform& OutTransform) const
 {
     TArray<AActor*> Candidates;
-    Candidates.Reserve(SpawnPoints.Num());
+    Candidates.Reserve(SpawnPointArray.Num());
 
-    for (AActor* P : SpawnPoints)
+    for (AActor* P : SpawnPointArray)
     {
         if (!P) continue;
 

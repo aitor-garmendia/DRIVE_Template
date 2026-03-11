@@ -29,9 +29,9 @@ public:
     FTransform GetSpawnTransform() const { return GetActorTransform(); }
 
 protected:
-    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="DRIVE|Spawn")
-    TObjectPtr<USceneComponent> Root;
+    //UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="DRIVE|Spawn")
+    //TObjectPtr<USceneComponent> Root;
 
-    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="DRIVE|Spawn")
-    TObjectPtr<UArrowComponent> Arrow;
+    //UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="DRIVE|Spawn")
+    //TObjectPtr<UArrowComponent> Arrow;
 };

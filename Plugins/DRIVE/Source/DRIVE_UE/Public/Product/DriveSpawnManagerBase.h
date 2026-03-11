@@ -43,7 +43,7 @@ public:
 
     // Config
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="DRIVE|Spawn")
-    TArray<AActor*> SpawnPoints;
+    TArray<AActor*> SpawnPointArray;
 
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="DRIVE|Spawn")
     bool bAutoRegisterSpawnPointsByTag = true;

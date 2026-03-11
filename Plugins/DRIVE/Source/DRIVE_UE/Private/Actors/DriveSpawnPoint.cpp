@@ -6,9 +6,9 @@ ADriveSpawnPoint::ADriveSpawnPoint()
 {
     PrimaryActorTick.bCanEverTick = false;
 
-    Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
-    SetRootComponent(Root);
+    //Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
+    //SetRootComponent(Root);
 
-    Arrow = CreateDefaultSubobject<UArrowComponent>(TEXT("Arrow"));
-    Arrow->SetupAttachment(Root);
+    //Arrow = CreateDefaultSubobject<UArrowComponent>(TEXT("Arrow"));
+    //Arrow->SetupAttachment(Root);
 }
