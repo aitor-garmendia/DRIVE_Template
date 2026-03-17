@@ -75,5 +75,7 @@ Plugins/**/Intermediate/*
 DerivedDataCache/*
 
 # Heavy files
+Content/CampoDeTiro
+Content/AutomotiveMaterials
 Content/MetaHumans
 Content/UltraDynamicSky
