@@ -3,4 +3,4 @@
 #include "DRIVE_Template.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, DRIVE_Template, "DRIVE_Template" );
+IMPLEMENT_MODULE( FDefaultModuleImpl, DRIVE_Template);//, "DRIVE_Template" );

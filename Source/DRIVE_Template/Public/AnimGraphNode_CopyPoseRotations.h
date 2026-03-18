@@ -2,8 +2,9 @@
 
 #include "CoreMinimal.h"
 #include "UObject/ObjectMacros.h"
-#include "AnimGraphNode_SkeletalControlBase.h"
-#include "DRIVE_Template/Public/AnimNode_CopyPoseRotations.h"
+//#include "AnimGraphNode_SkeletalControlBase.h"
+#include "AnimGraphNode_Base.h"
+#include "AnimNode_CopyPoseRotations.h"
 #include "AnimGraphNode_CopyPoseRotations.generated.h"
 
 

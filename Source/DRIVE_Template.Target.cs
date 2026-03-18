@@ -10,6 +10,6 @@ public class DRIVE_TemplateTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V6;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
-		ExtraModuleNames.AddRange( new string[] { "DRIVE_Template", "DRIVE_TemplateRuntime" } );
+		ExtraModuleNames.AddRange( new string[] { "DRIVE_TemplateRuntime" } );
 	}
 }

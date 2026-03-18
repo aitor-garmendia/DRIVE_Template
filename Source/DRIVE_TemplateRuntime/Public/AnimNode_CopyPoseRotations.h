@@ -38,7 +38,7 @@ struct FDRIVE_BoneSourceSettings
  */
 
 USTRUCT(BlueprintInternalUseOnly)
-struct DRIVE_TEMPLATE_API FAnimNode_CopyPoseRotations : public FAnimNode_Base
+struct DRIVE_TEMPLATERUNTIME_API FAnimNode_CopyPoseRotations : public FAnimNode_Base
 {
 	GENERATED_USTRUCT_BODY()
 

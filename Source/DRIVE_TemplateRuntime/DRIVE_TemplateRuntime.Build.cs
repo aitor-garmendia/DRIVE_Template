@@ -16,12 +16,9 @@ public class DRIVE_TemplateRuntime : ModuleRules
 			"InputCore",
 			"AnimationCore",
 			"AnimGraphRuntime",
-			"AnimGraph",
-			"BlueprintGraph",
 			"EnhancedInput",
 			"DRIVE_Core",
-			"DRIVE_UE",
-			"DRIVE_Template"
+			"DRIVE_UE"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
