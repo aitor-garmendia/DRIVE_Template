@@ -25,6 +25,9 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="DRIVE|Spawn")
     FName SpawnTag = NAME_None;
 
+    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="DRIVE|Spawn")
+    int PositionInList = 0;
+
     UFUNCTION(BlueprintCallable, Category="DRIVE|Spawn")
     FTransform GetSpawnTransform() const { return GetActorTransform(); }
 

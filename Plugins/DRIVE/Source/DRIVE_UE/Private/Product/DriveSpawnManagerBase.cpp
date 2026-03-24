@@ -98,3 +98,11 @@ APawn* ADriveSpawnManagerBase::SpawnAgent(const FDriveSpawnRequest& Request)
 
     return SpawnPawnAt(Request, T);
 }
+
+void ADriveSpawnManagerBase::SortSpawnPoints(TArray<ADriveSpawnPoint*>& spawnPoints)
+{
+    spawnPoints.Sort([](const ADriveSpawnPoint& A, const ADriveSpawnPoint& B)
+    {
+        return A.PositionInList < B.PositionInList;
+    });
+}

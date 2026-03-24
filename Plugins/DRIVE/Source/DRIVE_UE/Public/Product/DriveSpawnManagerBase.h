@@ -76,6 +76,9 @@ public:
     UFUNCTION(BlueprintImplementableEvent, Category="DRIVE|Spawn")
     void OnAgentSpawned(APawn* SpawnedPawn, const FDriveSpawnRequest& Request);
 
+    UFUNCTION(BlueprintCallable, Category="DRIVE|Spawn")
+    void SortSpawnPoints(UPARAM(ref) TArray<ADriveSpawnPoint*>& spawnPoints);
+
 protected:
     virtual void BeginPlay() override;
 };
