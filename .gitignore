@@ -75,8 +75,10 @@ Plugins/**/Intermediate/*
 DerivedDataCache/*
 
 # Heavy files
+Content/__ExternalActors__
+Content/__ExternalObjects__
+Content/FoliageTypes
 Content/CampoDeTiro
-Content/CampoDeTiroMerged
 Content/AutomotiveMaterials
 Content/MetaHumans
 Content/UltraDynamicSky
