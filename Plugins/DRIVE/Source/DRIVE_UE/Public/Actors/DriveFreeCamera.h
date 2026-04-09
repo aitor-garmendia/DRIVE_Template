@@ -15,4 +15,9 @@ public:
 
     UFUNCTION(BlueprintCallable, Category="DRIVE|FreeCamera")
     void ChangeViewMode(EViewModeIndex ViewMode) const;
+    UFUNCTION(BlueprintCallable, Category="DRIVE|FreeCamera")
+    int GetCurrentViewMode() const;
+
+private:
+    UGameViewportClient* GetGameViewport() const;
 };
