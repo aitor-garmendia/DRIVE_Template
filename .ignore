@@ -1,7 +1,14 @@
 /.git
 /.vscode
 /Content
+/DerivedDataCache
 /Intermediate
 /Saved
 /Plugins/DRIVE/Docs
 /Plugins/DRIVE/Intermediate
+/Plugins/DRIVE_InteractionSystem/.git
+/Plugins/DRIVE_InteractionSystem/Content
+/Plugins/DRIVE_UI/.git
+/Plugins/DRIVE_UI/Content
+/Plugins/RuntimeGizmo/Content
+/Plugins/RuntimeGizmo/Intermediate
